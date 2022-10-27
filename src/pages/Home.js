@@ -1,10 +1,11 @@
 import React from "react";
-import HomeMainSection from "./sections/HomeMainSection";
-
+import Navbar from "./components/Navbar";
 export default function Home() {
   return (
     <div>
-      <HomeMainSection />
+      <Navbar/>
+      Hello!sd
+     <p className="text-slate-900">bruh</p> WHATS UP??????
     </div>
   );
 }
