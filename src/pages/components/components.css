@@ -1,20 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+.bg-animation{
+  z-index: 0;
+  position: fixed
+}
 *{
   background-color: black;
+  font-family: 'Nunito Sans', sans-serif;
+  color:white;
+  
 }
+.bigname{
+  font-size: 100px;
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+}
+.dot{
+  font-size: large;
+  font-size: 10px;
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  color:black;
+  z-index: 98;
+}
+.orange{
+  font-size: large;
+  font-size: 100px;
+  display: inline-block;
+  position: absolute;
+  background-color: transparent;
+  color:#fb5454;
+  z-index: 99;
+}
+.blue{
+  font-size: large;
+  font-size: 100px;
+  display: inline-block;
+  position: absolute;
+  background-color: transparent;
+  color:#04fbf4;
+  z-index: 100;
+}
+
+.space1{
+  font-size: large;
+  font-size: 100px;
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  color:black;
+  z-index: 100;
+}
+.bigimg{
+  font-size: 100px;
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+}
+
 .ontop{
   z-index:101;
   color:white;
-  position: relative;
+  
 }
 .hover-underline-animation {
     display: inline-block;
     position: relative;
     color: #0087ca;
     size: 50px;
-    font-family: 'Inconsolata', monospace;
     z-index:100;
+    
   }
   
   .hover-underline-animation:after {
@@ -40,6 +98,7 @@
     left: 0px;
     bottom: 0px;
     width: 100%;
+    position: fixed
 }
 
 .bg-animation {
@@ -60,7 +119,7 @@
 }
 
 #stars {
-  z-index:-101;
+  z-index:0;
 
     width: 1px;
     height: 1px;
@@ -73,7 +132,7 @@
 }
 
 #stars:after {
-  z-index:-101;
+  z-index:0;
     content: " ";
     position: absolute;
     top: 2000px;
@@ -84,7 +143,7 @@
 }
 
 #stars2 {
-  z-index:-101;
+  z-index:0;
     width: 2px;
     height: 2px;
     background: transparent;
@@ -96,7 +155,7 @@
 }
 
 #stars2:after {
-  z-index:-101;
+  z-index:0;
     content: " ";
     position: absolute;
     top: 2000px;
@@ -107,7 +166,7 @@
 }
 
 #stars3 {
-  z-index:-101;
+  z-index:0;
     width: 3px;
     height: 3px;
     background: transparent;
@@ -119,7 +178,7 @@
 }
 
 #stars3:after {
-  z-index:-101;
+  z-index:0;
     content: " ";
     position: absolute;
     top: 2000px;
@@ -130,7 +189,7 @@
 }
 
 #stars4 {
-  z-index:-101;
+  z-index:0;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -142,7 +201,7 @@
 }
 
 #stars4:after {
-  z-index:-101;
+  z-index:0;
     content: " ";
     position: absolute;
     top: 2000px;

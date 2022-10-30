@@ -7,9 +7,10 @@ import Bg from "./components/Bg";
 export default function Home() {
   return (
     <div>
+      <Bg/>
       <Navbar/>
       <Hero/>
-      <Bg/>
+      
       
     </div>
   );
